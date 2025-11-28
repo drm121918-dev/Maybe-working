@@ -21,7 +21,7 @@ import sys
 import re
 import os
 
-bot = Client(
+bot = Client
     "bot",
     api_id=36925285,
     api_hash=ef3e2c581370c93287854dc36d78c13c,

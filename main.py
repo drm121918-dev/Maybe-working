@@ -25,7 +25,7 @@ bot = Client(
     "bot",
     api_id=36925285,
     api_hash=ef3e2c581370c93287854dc36d78c13c,
-    bot_token=8095739923:AAG7FBm_YIHxaN_QnUN6fXo8hFTOtEjSiAE)
+    bot_token=8095739923:AAG7FBm_YIHxaN_QnUN6fXo8hFTOtEjSiAE,
 
 @bot.on_message(filters.command(["stop"]))
 async def cancel_command(bot: Client, m: Message):
